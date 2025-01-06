@@ -1,2 +1,25 @@
-<h1>hello</h1>
-<button value="click me">click me</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="cancellation-form">
+            <h2>Cancel Your Ticket</h2>
+            <form id="cancellationForm">
+                <label for="pnr">PNR Number</label>
+                <input type="text" id="pnr" name="pnr" required>
+
+                <label for="pnr">TRAIN Number</label>
+                <input type="text" id="train" name="train" required>
+
+                <button type="submit">Cancle Ticket</button>
+            </form>
+        </section>
+        <section class="cancellation-result" id="cancellationResult"></section>
+    </main>
+</body>
+</html>
